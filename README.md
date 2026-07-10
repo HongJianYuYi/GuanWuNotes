@@ -49,8 +49,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yourusername/guanwu-xinyi.git
-cd guanwu-xinyi
+git clone https://github.com/HongJianYuYi/GuanWuNotes.git
+cd GuanWuNotes
 ```
 
 ### 2. 安装依赖
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ### 3. 运行程序
 
 ```bash
-python test.py
+python main.py
 ```
 
 ---
@@ -71,13 +71,13 @@ python test.py
 
 ```
 观物心易/
-├── test.py              # 主程序入口
+├── main.py              # 主程序入口
 ├── constants.json       # 常量配置文件（卦象、天干地支等）
 ├── requirements.txt     # 依赖库列表
 ├── LICENSE              # 开源许可证
 ├── README.md            # 项目文档
 ├── notes/               # 笔记文件夹
-│   └── *.txt            # 笔记文件
+│   └── *.json            # 笔记文件
 └── books/               # 书籍文件夹
     └── *.pdf            # PDF电子书
 ```
